@@ -31,7 +31,7 @@ public class GravityInfluence : MonoBehaviour
 		foreach(Planet p in closestPlanets)
 		{
 			var vec = p.transform.position - transform.position; // - p.transform.position;
-			var strength = (1f / vec.magnitude) * (p.GetComponent<Rigidbody2D>().mass / 500f);
+			var strength = (1f - Mathf.Min(1f, (vec.magnitude / p.gravityPullDistance))) * (p.gravityStrength);
 			vec.Normalize();
 			body.AddForce(vec * strength, ForceMode2D.Force);
 		}

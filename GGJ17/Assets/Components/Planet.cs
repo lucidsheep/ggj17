@@ -3,7 +3,8 @@ using System.Collections;
 
 public class Planet : MonoBehaviour
 {
-
+	public float gravityPullDistance = 5f;
+	public float gravityStrength = 5f;
 	// Use this for initialization
 	void Start ()
 	{

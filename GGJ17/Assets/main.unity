@@ -150,6 +150,16 @@ Prefab:
       propertyPath: m_Color.b
       value: 0.21344191
       objectReference: {fileID: 0}
+    - target: {fileID: 114018345296980318, guid: 52eb0f4f409b74feaa8329cc3dba3446,
+        type: 2}
+      propertyPath: gravityStrength
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114018345296980318, guid: 52eb0f4f409b74feaa8329cc3dba3446,
+        type: 2}
+      propertyPath: gravityPullDistance
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52eb0f4f409b74feaa8329cc3dba3446, type: 2}
   m_IsPrefabParent: 0
@@ -215,6 +225,16 @@ Prefab:
         type: 2}
       propertyPath: m_Color.b
       value: 0.8897059
+      objectReference: {fileID: 0}
+    - target: {fileID: 114018345296980318, guid: 52eb0f4f409b74feaa8329cc3dba3446,
+        type: 2}
+      propertyPath: gravityStrength
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114018345296980318, guid: 52eb0f4f409b74feaa8329cc3dba3446,
+        type: 2}
+      propertyPath: gravityPullDistance
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52eb0f4f409b74feaa8329cc3dba3446, type: 2}
