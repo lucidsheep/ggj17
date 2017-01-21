@@ -14,15 +14,12 @@ public class Controllable : MonoBehaviour {
 		var leftHeld = Input.GetKey(KeyCode.LeftArrow);
 		var rightHeld = Input.GetKey(KeyCode.RightArrow);
 		if(leftHeld && !rightHeld)
-			transform.Rotate(new Vector3(0f, 0f, engine.turning * Time.deltaTime));
+			engine.TurnShip(false);
 		else if(!leftHeld && rightHeld)
-			transform.Rotate(new Vector3(0f, 0f, -engine.turning * Time.deltaTime));
+			engine.TurnShip(true);
 
 		if(Input.GetKey(KeyCode.Space)) {
-			float angle = transform.eulerAngles.magnitude * Mathf.Deg2Rad;
-			float acceleration = engine.acceleration * Time.deltaTime;
-			Vector2 force = new Vector2(acceleration * Mathf.Cos (angle), acceleration * Mathf.Sin (angle));
-			transform.GetComponent<Rigidbody2D>().AddForce(force, ForceMode2D.Force);
+			engine.EngageEngines();
 		}
 	}
 }
