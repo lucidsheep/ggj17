@@ -178,21 +178,6 @@ Prefab:
       propertyPath: ship
       value: 
       objectReference: {fileID: 1384126109}
-    - target: {fileID: 114369522772424306, guid: 600384aa196d64bb896df2773c43bce5,
-        type: 2}
-      propertyPath: solarRadius
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 114230561278297794, guid: 600384aa196d64bb896df2773c43bce5,
-        type: 2}
-      propertyPath: gravityPullDistance
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 114230561278297794, guid: 600384aa196d64bb896df2773c43bce5,
-        type: 2}
-      propertyPath: gravityStrength
-      value: 50
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 600384aa196d64bb896df2773c43bce5, type: 2}
   m_IsPrefabParent: 0
@@ -423,6 +408,7 @@ GameObject:
   - component: {fileID: 1384126110}
   - component: {fileID: 1384126116}
   - component: {fileID: 1384126117}
+  - component: {fileID: 1384126118}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Untagged
@@ -443,7 +429,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.75, y: 1.12}
+  m_Size: {x: 1.7, y: 1.12}
 --- !u!50 &1384126111
 Rigidbody2D:
   serializedVersion: 4
@@ -525,7 +511,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1246548009
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 01d7466ba2be34871a480cbe8fe2754e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a217b127eaa6e4a35918638e9a18e82a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -567,6 +553,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxEnergy: 5000
   levelUpEnergy: 1000
+--- !u!114 &1384126118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1384126109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc21a8dfc152a40319aa599f4c3d676a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHP: 4
+  invincibilityTime: 5
+  levelUpHP: 2
 --- !u!1 &1464345196
 GameObject:
   m_ObjectHideFlags: 0
