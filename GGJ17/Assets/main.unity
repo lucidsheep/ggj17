@@ -518,6 +518,7 @@ GameObject:
   - component: {fileID: 1384126116}
   - component: {fileID: 1384126117}
   - component: {fileID: 1384126118}
+  - component: {fileID: 1384126119}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Untagged
@@ -676,6 +677,18 @@ MonoBehaviour:
   maxHP: 4
   invincibilityTime: 5
   levelUpHP: 2
+--- !u!114 &1384126119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1384126109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef3e0b147c66f467f9ddc379cd0a11e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drainPerSecond: 100
 --- !u!1 &1464345196
 GameObject:
   m_ObjectHideFlags: 0
