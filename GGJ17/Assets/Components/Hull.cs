@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Hull : MonoBehaviour
 {
@@ -27,9 +28,10 @@ public class Hull : MonoBehaviour
 		if(invincibleTimeLeft > 0f)
 			return;
 		currentHP -= damage;
-		invincibleTimeLeft = invincibilityTime;
+		if(damage > 0)
+			invincibleTimeLeft = invincibilityTime;
 		if(currentHP <= 0){
-			//todo - end of game stuff
+			SceneManager.LoadScene("gameover");
 		}
 	}
 
