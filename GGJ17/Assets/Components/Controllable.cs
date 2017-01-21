@@ -10,6 +10,7 @@ public class Controllable : MonoBehaviour {
 	}
 	
 	void Update () {
+		GetComponent<Rigidbody2D>().angularVelocity = 0f;
 		var leftHeld = Input.GetKey(KeyCode.LeftArrow);
 		var rightHeld = Input.GetKey(KeyCode.RightArrow);
 		if(leftHeld && !rightHeld)
