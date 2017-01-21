@@ -134,6 +134,68 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   debugUI: {fileID: 1647735205}
   ship: {fileID: 1384126109}
+--- !u!1001 &384073409
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4524545556439006, guid: 600384aa196d64bb896df2773c43bce5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -12.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524545556439006, guid: 600384aa196d64bb896df2773c43bce5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524545556439006, guid: 600384aa196d64bb896df2773c43bce5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524545556439006, guid: 600384aa196d64bb896df2773c43bce5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524545556439006, guid: 600384aa196d64bb896df2773c43bce5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524545556439006, guid: 600384aa196d64bb896df2773c43bce5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524545556439006, guid: 600384aa196d64bb896df2773c43bce5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524545556439006, guid: 600384aa196d64bb896df2773c43bce5, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114369522772424306, guid: 600384aa196d64bb896df2773c43bce5,
+        type: 2}
+      propertyPath: ship
+      value: 
+      objectReference: {fileID: 1384126109}
+    - target: {fileID: 114369522772424306, guid: 600384aa196d64bb896df2773c43bce5,
+        type: 2}
+      propertyPath: solarRadius
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114230561278297794, guid: 600384aa196d64bb896df2773c43bce5,
+        type: 2}
+      propertyPath: gravityPullDistance
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114230561278297794, guid: 600384aa196d64bb896df2773c43bce5,
+        type: 2}
+      propertyPath: gravityStrength
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 600384aa196d64bb896df2773c43bce5, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &819253305
 Prefab:
   m_ObjectHideFlags: 0

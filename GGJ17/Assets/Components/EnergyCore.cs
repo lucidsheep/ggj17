@@ -38,5 +38,10 @@ public class EnergyCore : MonoBehaviour
 		maxEnergy += levelUpEnergy;
 		currentEnergy = maxEnergy;
 	}
+
+	public void GetEnergy(int amount)
+	{
+		currentEnergy = Mathf.Min(currentEnergy + amount, maxEnergy);
+	}
 }
 
