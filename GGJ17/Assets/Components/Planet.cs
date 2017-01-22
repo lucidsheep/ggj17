@@ -23,8 +23,10 @@ public class Planet : MonoBehaviour
 
 	void OnCollisionEnter2D(Collision2D collision)
 	{
-		if(collision.gameObject.GetComponent<Hull>() != null)
+		if(collision.gameObject.GetComponent<Hull>() != null){
 			collision.gameObject.GetComponent<Hull>().TakeDamage(collisionDamage);
+			AudioController.PlaySFX(AudioController.instance.explosion);
+		}
 	}
 }
 

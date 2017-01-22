@@ -33,6 +33,7 @@ public class Weapons : MonoBehaviour
 			{
 				Instantiate(bullet, c.transform.position, transform.rotation);
 			}
+			AudioController.PlaySFX(AudioController.instance.laser);
 		}
 	}
 
