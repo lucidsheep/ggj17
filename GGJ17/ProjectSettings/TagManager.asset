@@ -44,6 +44,9 @@ TagManager:
   - name: Space
     uniqueID: 3320910935
     locked: 0
+  - name: Stars
+    uniqueID: 4110720885
+    locked: 0
   - name: Object
     uniqueID: 3048419287
     locked: 0
