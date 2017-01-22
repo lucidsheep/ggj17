@@ -2817,8 +2817,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thingToTrack: {fileID: 826112950}
   zoomedInMax: 10
-  zoomedOutMax: 15
+  zoomedOutMax: 20
   velocityForMaxZoom: 20
+  velocityPanMultiplier: 0.5
 --- !u!1001 &2083016171
 Prefab:
   m_ObjectHideFlags: 0
