@@ -47,6 +47,15 @@ TagManager:
   - name: Object
     uniqueID: 3048419287
     locked: 0
+  - name: Sun_Lower
+    uniqueID: 2115498027
+    locked: 0
+  - name: Sun_Middle
+    uniqueID: 917085935
+    locked: 0
+  - name: Sun_Upper
+    uniqueID: 929282693
+    locked: 0
   - name: Ship_Lower
     uniqueID: 1459159731
     locked: 0

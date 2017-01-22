@@ -6,10 +6,13 @@ public class Planet : MonoBehaviour
 	public float gravityPullDistance = 5f;
 	public float gravityStrength = 5f;
 	public int collisionDamage = 1;
+	public Sprite[] planetOptions;
+	public bool useRandomPlanet = true;
 	// Use this for initialization
 	void Start ()
 	{
-	
+		if(useRandomPlanet)
+			GetComponent<SpriteRenderer>().sprite = planetOptions[Random.Range(0, planetOptions.Length)];
 	}
 	
 	// Update is called once per frame
