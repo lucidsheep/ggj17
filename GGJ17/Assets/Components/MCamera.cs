@@ -26,6 +26,7 @@ public class MCamera : MonoBehaviour
 			Camera.main.orthographicSize += (Mathf.Min(.1f, Mathf.Abs(diff) * Time.deltaTime));
 		else
 			Camera.main.orthographicSize -= (Mathf.Min(.1f, Mathf.Abs(diff) * Time.deltaTime));
+		
 	}
 }
 
