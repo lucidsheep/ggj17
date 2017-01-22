@@ -8,11 +8,13 @@ public class ShipUI : MonoBehaviour
 
 	EnergyCore core;
 	Hull hull;
+	float startingZoom;
 	// Use this for initialization
 	void Start ()
 	{
 		core = ship.GetComponent<EnergyCore>();
 		hull = ship.GetComponent<Hull>();
+		startingZoom = Camera.main.orthographicSize;
 	}
 	
 	// Update is called once per frame
@@ -20,6 +22,8 @@ public class ShipUI : MonoBehaviour
 	{
 		debugUI.text = "Energy: " + core.GetCurrentEnergy() + " / " + core.maxEnergy + "\n" +
 						"Hull: " + hull.GetHP() + " / " + hull.maxHP;
+		var zoom = .2f * (Camera.main.orthographicSize / startingZoom);
+		debugUI.transform.localScale = new Vector3(zoom, zoom, 1f);
 	}
 }
 

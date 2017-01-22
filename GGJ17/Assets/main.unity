@@ -989,6 +989,7 @@ GameObject:
   - component: {fileID: 1647735206}
   - component: {fileID: 1647735205}
   - component: {fileID: 1647735207}
+  - component: {fileID: 1647735208}
   m_Layer: 0
   m_Name: DebugUI
   m_TagString: Untagged
@@ -1073,6 +1074,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   layerName: UI_Upper
+--- !u!114 &1647735208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1647735203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de7381d134d74fe093a9d67bcc9f2af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horAnchor: 0
+  vertAnchor: 0
+  horOffset: 0.5
+  vertOffset: 1.5
 --- !u!1001 &1684706076
 Prefab:
   m_ObjectHideFlags: 0
@@ -1328,3 +1344,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thingToTrack: {fileID: 1384126109}
+  zoomedInMax: 7
+  zoomedOutMax: 20
+  velocityForMaxZoom: 20
