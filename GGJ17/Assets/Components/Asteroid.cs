@@ -11,6 +11,7 @@ public class Asteroid : MonoBehaviour
 	public bool isMoving;
 	public float minSpeed;
 	public float maxSpeed;
+	public int hitPoints = 5;
 	// Use this for initialization
 	void Start ()
 	{
@@ -32,6 +33,12 @@ public class Asteroid : MonoBehaviour
 	{
 		if(collision.gameObject.GetComponent<Hull>() != null)
 			collision.gameObject.GetComponent<Hull>().TakeDamage(collisionDamage);
+		else if(collision.gameObject.GetComponent<Bullet>() != null)
+		{
+			hitPoints -= collision.gameObject.GetComponent<Bullet>().damage;
+			if(hitPoints <= 0)
+				Destroy(gameObject);
+		}
 	}
 }
 

@@ -18,8 +18,13 @@ public class Controllable : MonoBehaviour {
 		else if(!leftHeld && rightHeld)
 			engine.TurnShip(true);
 
-		if(Input.GetKey(KeyCode.Space)) {
+		if(Input.GetKey(KeyCode.UpArrow)) {
 			engine.EngageEngines();
+		}
+
+		if(Input.GetKeyDown(KeyCode.Space))
+		{
+			GetComponent<Weapons>().ShootWeapons();
 		}
 	}
 }

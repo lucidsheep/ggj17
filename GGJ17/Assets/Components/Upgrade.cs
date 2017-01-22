@@ -29,7 +29,7 @@ public class Upgrade : MonoBehaviour
 			case UpgradeType.CORE: collision.gameObject.GetComponent<EnergyCore>().LevelUp(); break;
 			case UpgradeType.ENGINE: collision.gameObject.GetComponent<Engines>().LevelUp(); break;
 			case UpgradeType.HEALTH: collision.gameObject.GetComponent<Hull>().Repair(9999); break;
-			case UpgradeType.WEAPON: break; //todo
+			case UpgradeType.WEAPON: collision.gameObject.GetComponent<Weapons>().LevelUp(); break;
 		}
 
 		Destroy(this.gameObject);

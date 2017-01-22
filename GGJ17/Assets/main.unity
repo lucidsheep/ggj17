@@ -128,7 +128,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4680515913139358, guid: 281ef7c99fca842fcba676393c156638, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 281ef7c99fca842fcba676393c156638, type: 2}
@@ -196,6 +196,62 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1075847478}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &184665658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 184665659}
+  m_Layer: 8
+  m_Name: cannon (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &184665659
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 184665658}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.35, y: -0.45, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1384126115}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &221231619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 221231620}
+  m_Layer: 8
+  m_Name: cannon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &221231620
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 221231619}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.35, y: 0.46, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1384126115}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &224692228
 GameObject:
@@ -341,7 +397,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4524545556439006, guid: 600384aa196d64bb896df2773c43bce5, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114369522772424306, guid: 600384aa196d64bb896df2773c43bce5,
         type: 2}
@@ -398,7 +454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 399630829}
   - component: {fileID: 399630830}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Core
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -794,7 +850,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4195638789882218, guid: 52eb0f4f409b74feaa8329cc3dba3446, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 50101168111359140, guid: 52eb0f4f409b74feaa8329cc3dba3446,
         type: 2}
@@ -1063,7 +1119,7 @@ Transform:
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1355718019
 GameObject:
@@ -1074,7 +1130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1355718020}
   - component: {fileID: 1355718021}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Engines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1147,7 +1203,8 @@ GameObject:
   - component: {fileID: 1384126118}
   - component: {fileID: 1384126120}
   - component: {fileID: 1384126119}
-  m_Layer: 0
+  - component: {fileID: 1384126121}
+  m_Layer: 8
   m_Name: PlayerShip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1266,6 +1323,8 @@ Transform:
   - {fileID: 1355718020}
   - {fileID: 399630829}
   - {fileID: 1926756409}
+  - {fileID: 221231620}
+  - {fileID: 184665659}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1335,6 +1394,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drainPerSecond: 100
+--- !u!114 &1384126121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1384126109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15a6aacf7cf0a426ea0682a6152ef803, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 114699633351931738, guid: 406002d8cbe7e44f0b3d9895397d3714, type: 2}
+  cannons:
+  - {fileID: 221231619}
+  - {fileID: 184665658}
+  cooldown: 0.4
+  energyPerShot: 100
 --- !u!1 &1464345196
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,7 +1449,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1522140878
 Prefab:
@@ -1704,7 +1780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1926756409}
   - component: {fileID: 1926756410}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Weapons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
