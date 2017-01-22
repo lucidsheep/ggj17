@@ -9,7 +9,7 @@ public class Upgrade : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-	
+		GetComponent<Rigidbody2D>().angularVelocity = Random.Range(-30f, 30f);
 	}
 	
 	// Update is called once per frame
