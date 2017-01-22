@@ -47,6 +47,15 @@ TagManager:
   - name: Object
     uniqueID: 3048419287
     locked: 0
+  - name: Ship_Lower
+    uniqueID: 1459159731
+    locked: 0
+  - name: Ship_Middle
+    uniqueID: 4233292087
+    locked: 0
+  - name: Ship_Upper
+    uniqueID: 302108861
+    locked: 0
   - name: Particle
     uniqueID: 156858677
     locked: 0
