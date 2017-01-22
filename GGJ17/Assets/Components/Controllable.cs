@@ -20,6 +20,9 @@ public class Controllable : MonoBehaviour {
 
 		if(Input.GetKey(KeyCode.UpArrow)) {
 			engine.EngageEngines();
+		} else if(Input.GetKeyUp(KeyCode.UpArrow))
+		{
+			engine.StopEngines();
 		}
 
 		if(Input.GetKeyDown(KeyCode.Space))

@@ -14,6 +14,8 @@ public class Engines : MonoBehaviour
 	public int turnEnergyCost = 1;
 	public int boostEnergyCost = 1;
 
+	public GameObject[] engineTrails;
+
 	Rigidbody2D body;
 	EnergyCore core;
 	// Use this for initialization
@@ -53,6 +55,18 @@ public class Engines : MonoBehaviour
 		float accelerationDelta = acceleration * Time.deltaTime;
 		Vector2 force = new Vector2(accelerationDelta * Mathf.Cos (angle), accelerationDelta * Mathf.Sin (angle));
 		transform.GetComponent<Rigidbody2D>().AddForce(force, ForceMode2D.Force);
+		foreach(GameObject g in engineTrails)
+		{
+			g.GetComponent<ParticleSystem>().Play();// = true;
+		}
+	}
+
+	public void StopEngines()
+	{
+		foreach(GameObject g in engineTrails)
+		{
+			g.GetComponent<ParticleSystem>().Stop();
+		}
 	}
 }
 
