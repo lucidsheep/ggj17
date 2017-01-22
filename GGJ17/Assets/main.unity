@@ -33047,7 +33047,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horAnchor: 0
   vertAnchor: 0
-  horOffset: 4.5
+  horOffset: 5
   vertOffset: 3.5
 --- !u!1001 &1480924950
 Prefab:
@@ -36158,7 +36158,7 @@ TextMesh:
   m_FontSize: 64
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: 517366a1211f84c79b4b67459c5bb726, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -36175,7 +36175,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: 517366a1211f84c79b4b67459c5bb726, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
