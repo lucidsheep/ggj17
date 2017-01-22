@@ -17,7 +17,7 @@ public class LifeSupport : MonoBehaviour
 	void Update ()
 	{
 		if(!core.UseEnergy(Mathf.FloorToInt(drainPerSecond * Time.deltaTime)))
-			SceneManager.LoadScene("gameover");
+			GameOverHandler.SetGameOver(GameOverHandler.GameOverType.energy);
 	}
 }
 

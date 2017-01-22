@@ -11,3 +11,11 @@ EditorBuildSettings:
     path: Assets/gameover.unity
   - enabled: 1
     path: Assets/victory.unity
+  - enabled: 1
+    path: Assets/GameOver_BlackHole.unity
+  - enabled: 1
+    path: Assets/GameOver_Crash.unity
+  - enabled: 1
+    path: Assets/GameOver_Generic.unity
+  - enabled: 1
+    path: Assets/GameOver_Sun.unity

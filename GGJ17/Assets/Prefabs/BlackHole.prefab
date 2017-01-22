@@ -108,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityPullDistance: 30
   gravityStrength: 50
-  collisionDamage: 100
+  collisionDamage: 1000
   planetOptions:
   - {fileID: 21300000, guid: 6e535eb6b3a2044a9ad71c566ac794d9, type: 3}
   - {fileID: 21300000, guid: 095b3c086303b45e3b19809dffbaba38, type: 3}

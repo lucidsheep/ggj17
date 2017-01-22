@@ -31,7 +31,12 @@ public class Hull : MonoBehaviour
 		if(damage > 0)
 			invincibleTimeLeft = invincibilityTime;
 		if(currentHP <= 0){
-			SceneManager.LoadScene("gameover");
+			if(damage > 200)
+				GameOverHandler.SetGameOver(GameOverHandler.GameOverType.blackhole);
+			else if(damage > 10)
+				GameOverHandler.SetGameOver(GameOverHandler.GameOverType.sun);
+			else
+				GameOverHandler.SetGameOver(GameOverHandler.GameOverType.crash);
 		}
 	}
 
