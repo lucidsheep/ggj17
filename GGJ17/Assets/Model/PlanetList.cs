@@ -7,6 +7,7 @@ public class PlanetList : MonoBehaviour {
 	static PlanetList instance;
 
 	List<Planet> allPlanets;
+	List<Planet> allSuns;
 
 	void Awake() {
 		instance = this;
@@ -15,6 +16,14 @@ public class PlanetList : MonoBehaviour {
 
 	void UpdatePlanetList() {
 		allPlanets = new List<Planet>(Object.FindObjectsOfType<Planet>());
+		allSuns = new List<Planet>();
+		foreach(Planet p in allPlanets)
+		{
+			if(p.GetComponent<Sun>() != null)
+			{
+				allSuns.Add(p);
+			}
+		}
 	}
 
 	public static List<Planet> findClosestPlanets(Vector3 pos, int numToFind)
@@ -36,5 +45,17 @@ public class PlanetList : MonoBehaviour {
 			planets.RemoveAt(0);
 		}
 		return ret;
+	}	
+
+	public static float findClosetSunDistance(Vector3 pos)
+	{
+		float closest = 10000f;
+		foreach(Planet p in instance.allSuns)
+		{
+			var distance = Vector3.Distance(p.transform.position, pos);
+			if(distance < closest)
+				closest = distance;
+		}
+		return closest;
 	}	
 }
