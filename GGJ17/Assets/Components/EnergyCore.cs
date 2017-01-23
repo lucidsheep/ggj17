@@ -30,6 +30,7 @@ public class EnergyCore : MonoBehaviour
 			if(!isEnergyCritical && CheckIsEnergyCritical()){
 				isEnergyCritical = true;
 				AudioController.PlaySFX(AudioController.instance.alarm);
+				Dialog.SetTxt("Energy reserves are low!\nGet close to a sun to\nrestore energy");
 			}
 			return true;
 		}
@@ -48,6 +49,7 @@ public class EnergyCore : MonoBehaviour
 	{
 		maxEnergy += levelUpEnergy;
 		currentEnergy = maxEnergy;
+		Dialog.SetTxt("Energy core upgraded!\nThe ship can hold more\nenergy now.");
 	}
 
 	public void GetEnergy(int amount)

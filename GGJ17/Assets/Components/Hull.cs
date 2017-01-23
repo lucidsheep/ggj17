@@ -27,10 +27,14 @@ public class Hull : MonoBehaviour
 	{
 		if(invincibleTimeLeft > 0f)
 			return;
+		bool wasCritical = currentHP < 3;
 		currentHP -= damage;
+		bool isCritical = currentHP < 3;
 		if(damage > 0){
 			invincibleTimeLeft = invincibilityTime;
 			Character.SetExpression(Character.expressionType.scared);
+			if(!wasCritical && isCritical)
+				Dialog.SetTxt("Hull integrity critical!\nI need to find a repair module...");
 		}
 		if(currentHP <= 0){
 			if(damage > 200)
@@ -45,6 +49,7 @@ public class Hull : MonoBehaviour
 	public void Repair(int repairAmount)
 	{
 		currentHP = Mathf.Min(currentHP + repairAmount, maxHP);
+		Dialog.SetTxt("Repair drones deployed!\nShip is fully operational.");
 	}
 
 	public int GetHP()
@@ -56,6 +61,7 @@ public class Hull : MonoBehaviour
 	{
 		maxHP += levelUpHP;
 		currentHP = maxHP;
+		Dialog.SetTxt("Armor upgraded!\nThe ship can take more\nhits now.");
 	}
 }
 

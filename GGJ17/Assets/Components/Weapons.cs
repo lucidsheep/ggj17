@@ -40,6 +40,7 @@ public class Weapons : MonoBehaviour
 	public void LevelUp()
 	{
 		armed = true;
+		Dialog.SetTxt("Weapons online!\nPress [SPACE] to\nshoot asteroids");
 	}
 }
 
