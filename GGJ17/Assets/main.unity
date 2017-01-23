@@ -33034,6 +33034,7 @@ GameObject:
   - component: {fileID: 1464345198}
   - component: {fileID: 1464345197}
   - component: {fileID: 1464345199}
+  - component: {fileID: 1464345200}
   m_Layer: 0
   m_Name: ModelInstances
   m_TagString: Untagged
@@ -33077,6 +33078,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ship: {fileID: 826112950}
+--- !u!114 &1464345200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1464345196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b120514922fe14a0285a2b450b38b573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1467833371
 Prefab:
   m_ObjectHideFlags: 0
@@ -45473,6 +45485,52 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 281ef7c99fca842fcba676393c156638, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2052372803
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4681239942672514, guid: c99cf9d24fdde43c59516af692acf7f6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681239942672514, guid: c99cf9d24fdde43c59516af692acf7f6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681239942672514, guid: c99cf9d24fdde43c59516af692acf7f6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681239942672514, guid: c99cf9d24fdde43c59516af692acf7f6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681239942672514, guid: c99cf9d24fdde43c59516af692acf7f6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681239942672514, guid: c99cf9d24fdde43c59516af692acf7f6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681239942672514, guid: c99cf9d24fdde43c59516af692acf7f6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681239942672514, guid: c99cf9d24fdde43c59516af692acf7f6, type: 2}
+      propertyPath: m_RootOrder
+      value: 787
+      objectReference: {fileID: 0}
+    - target: {fileID: 1765605710243574, guid: c99cf9d24fdde43c59516af692acf7f6, type: 2}
+      propertyPath: m_Name
+      value: EngineUpgrade (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c99cf9d24fdde43c59516af692acf7f6, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &2052527952
 Prefab:
