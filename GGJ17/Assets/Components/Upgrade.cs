@@ -31,7 +31,7 @@ public class Upgrade : MonoBehaviour
 			case UpgradeType.HEALTH: collision.gameObject.GetComponent<Hull>().Repair(9999); break;
 			case UpgradeType.WEAPON: collision.gameObject.GetComponent<Weapons>().LevelUp(); break;
 		}
-
+		Character.SetExpression(Character.expressionType.happy);
 		Destroy(this.gameObject);
 	}
 }

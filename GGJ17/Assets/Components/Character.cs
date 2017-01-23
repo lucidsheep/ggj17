@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Character : MonoBehaviour
 {
-	public enum expressionType {happy, sad };
+	public enum expressionType {happy, sad, scared};
 	public Sprite happy;
 	public Sprite sad;
 	public Sprite normal;
@@ -15,11 +15,13 @@ public class Character : MonoBehaviour
 	public static Character instance;
 	float timeLeft = 0f;
 	Hull hull;
+	EnergyCore core;
 	// Use this for initialization
 	void Start ()
 	{
 		instance = this;
 		hull = ship.GetComponent<Hull>();
+		core = ship.GetComponent<EnergyCore>();
 	}
 	
 	// Update is called once per frame
@@ -28,7 +30,7 @@ public class Character : MonoBehaviour
 		if(timeLeft > 0f){
 			timeLeft -= Time.deltaTime;
 		} else {
-			GetComponent<SpriteRenderer>().sprite = hull.GetHP() > 2 ? normal : sad;
+			GetComponent<SpriteRenderer>().sprite = hull.GetHP() > 2 && core.GetCurrentEnergy() > 1500 ? normal : sad;
 		}
 	}
 
@@ -39,6 +41,7 @@ public class Character : MonoBehaviour
 		{
 			case expressionType.happy: expressionSprite = instance.happy; break;
 			case expressionType.sad: expressionSprite = instance.sad; break;
+			case expressionType.scared: expressionSprite = instance.scared; break;
 			default: expressionSprite = instance.normal; break;
 		}
 

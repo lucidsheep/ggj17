@@ -28,8 +28,10 @@ public class Hull : MonoBehaviour
 		if(invincibleTimeLeft > 0f)
 			return;
 		currentHP -= damage;
-		if(damage > 0)
+		if(damage > 0){
 			invincibleTimeLeft = invincibilityTime;
+			Character.SetExpression(Character.expressionType.scared);
+		}
 		if(currentHP <= 0){
 			if(damage > 200)
 				GameOverHandler.SetGameOver(GameOverHandler.GameOverType.blackhole);
