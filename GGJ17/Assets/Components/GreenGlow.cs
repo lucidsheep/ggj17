@@ -24,7 +24,7 @@ public class GreenGlow : MonoBehaviour
 
 	public void StartGlow()
 	{
-		t = DOTween.To(() => sprite.color, x => sprite.color = x, glow, .5f).SetLoops(-1, LoopType.Yoyo);
+		t = DOTween.To(() => sprite.color, x => sprite.color = x, glow, .25f).SetLoops(-1, LoopType.Yoyo);
 		active = true;
 	}
 
