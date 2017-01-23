@@ -19,8 +19,11 @@ public class EnergyCore : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		if(rechargeSFXCooldown > 0f)
+		if(rechargeSFXCooldown > 0f){
 			rechargeSFXCooldown -= Time.deltaTime;
+			//if(rechargeSFXCooldown <= 0f)
+				//GetComponent<GreenGlow>().StopGlow();
+		}
 	}
 
 	public bool UseEnergy(int amount)
@@ -55,6 +58,7 @@ public class EnergyCore : MonoBehaviour
 	public void GetEnergy(int amount)
 	{
 		currentEnergy = Mathf.Min(currentEnergy + amount, maxEnergy);
+		//GetComponent<GreenGlow>().StartGlow();
 		if(rechargeSFXCooldown <= 0f) {
 			AudioController.PlaySFX(AudioController.instance.restore);
 			rechargeSFXCooldown = 1f;

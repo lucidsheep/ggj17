@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 50656157556170100}
   - component: {fileID: 58688449967158990}
   - component: {fileID: 82055462422636986}
+  - component: {fileID: 114773383922629810}
   m_Layer: 0
   m_Name: GunUpgrade
   m_TagString: Untagged
@@ -158,6 +159,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &114773383922629810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1963732715450146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3700551d46434829b346057a477e3c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  glow: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &114805971007335916
 MonoBehaviour:
   m_ObjectHideFlags: 1

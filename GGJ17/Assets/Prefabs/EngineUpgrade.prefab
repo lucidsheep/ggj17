@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 50157932340580166}
   - component: {fileID: 58029434373389236}
   - component: {fileID: 82056929992259534}
+  - component: {fileID: 114022732027328340}
   m_Layer: 0
   m_Name: EngineUpgrade
   m_TagString: Untagged
@@ -158,6 +159,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &114022732027328340
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1765605710243574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3700551d46434829b346057a477e3c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  glow: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &114149817086156144
 MonoBehaviour:
   m_ObjectHideFlags: 1

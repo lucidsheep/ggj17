@@ -10,6 +10,7 @@ public class Upgrade : MonoBehaviour
 	void Start ()
 	{
 		GetComponent<Rigidbody2D>().angularVelocity = Random.Range(-30f, 30f);
+		GetComponent<GreenGlow>().StartGlow();
 	}
 	
 	// Update is called once per frame

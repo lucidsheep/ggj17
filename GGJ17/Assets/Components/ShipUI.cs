@@ -20,8 +20,7 @@ public class ShipUI : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		debugUI.text = "Energy: "  +  "\n" +
-						"Hull: ";
+		debugUI.text = "";
 		var zoom = .2f * (Camera.main.orthographicSize / startingZoom);
 		debugUI.transform.localScale = new Vector3(zoom, zoom, 1f);
 	}
