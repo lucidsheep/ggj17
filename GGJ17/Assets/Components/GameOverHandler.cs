@@ -29,7 +29,7 @@ public class GameOverHandler : MonoBehaviour
 			return;
 		instance.isGameOver = true;
 		instance.type = type;
-		DOTween.To( () => instance.GetComponent<SpriteRenderer>().color, x => instance.GetComponent<SpriteRenderer>().color = x, new Color(0f, 0f, 0f, 1f), 3f)
+		DOTween.To( () => instance.GetComponent<SpriteRenderer>().color, x => instance.GetComponent<SpriteRenderer>().color = x, new Color(0f, 0f, 0f, 1f), 1.5f)
 		.OnComplete( () => FinishFade());
 	}
 

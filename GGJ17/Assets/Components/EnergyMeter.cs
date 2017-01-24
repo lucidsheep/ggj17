@@ -22,7 +22,7 @@ public class EnergyMeter : MonoBehaviour
 		var meterSize = Mathf.Max(.1f, core.GetCurrentEnergy() / 2000f);
 		rightCap.transform.localPosition = new Vector3(meterSize, 0f, 0f);
 		stretch.transform.localScale = new Vector3(meterSize * 2f, 1f, 1f);
-		stretch.transform.localPosition = new Vector3(meterSize / 2.02f, 0f, 0f);
+		stretch.transform.localPosition = new Vector3(meterSize / 2f, 0f, 0f);
 	}
 }
 

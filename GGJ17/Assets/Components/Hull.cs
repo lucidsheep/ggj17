@@ -35,6 +35,7 @@ public class Hull : MonoBehaviour
 			Character.SetExpression(Character.expressionType.scared);
 			if(!wasCritical && isCritical)
 				Dialog.SetTxt("Hull integrity critical!\nI need to find a repair module...");
+            RedFlash.Flash();
 		}
 		if(currentHP <= 0){
 			if(damage > 200)
