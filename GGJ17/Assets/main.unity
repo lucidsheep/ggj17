@@ -568,6 +568,11 @@ Prefab:
       propertyPath: m_Name
       value: BlackHole (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -1870,6 +1875,11 @@ Prefab:
       propertyPath: m_Name
       value: BlackHole (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -2410,6 +2420,11 @@ Prefab:
         type: 2}
       propertyPath: gravityStrength
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114230561278297794, guid: 600384aa196d64bb896df2773c43bce5,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 600384aa196d64bb896df2773c43bce5, type: 2}
@@ -4510,6 +4525,11 @@ Prefab:
       propertyPath: m_Name
       value: BlackHole (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -4623,6 +4643,11 @@ Prefab:
     - target: {fileID: 1947655142125346, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
       propertyPath: m_Name
       value: BlackHole (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
@@ -7677,6 +7702,11 @@ Prefab:
       propertyPath: gravityPullDistance
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -7850,6 +7880,11 @@ Prefab:
         type: 2}
       propertyPath: m_Range
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114230561278297794, guid: 600384aa196d64bb896df2773c43bce5,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 600384aa196d64bb896df2773c43bce5, type: 2}
@@ -8372,6 +8407,11 @@ Prefab:
       propertyPath: gravityPullDistance
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -8435,6 +8475,11 @@ Prefab:
     - target: {fileID: 1947655142125346, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
       propertyPath: m_Name
       value: BlackHole (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
@@ -8883,6 +8928,11 @@ Prefab:
       propertyPath: gravityPullDistance
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -9305,6 +9355,11 @@ Prefab:
         type: 2}
       propertyPath: solarEnergy
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114230561278297794, guid: 600384aa196d64bb896df2773c43bce5,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 600384aa196d64bb896df2773c43bce5, type: 2}
@@ -9816,6 +9871,11 @@ Prefab:
     - target: {fileID: 1947655142125346, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
       propertyPath: m_Name
       value: BlackHole (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
@@ -10821,6 +10881,11 @@ Prefab:
       propertyPath: m_Name
       value: BlackHole (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -11438,6 +11503,11 @@ Prefab:
         type: 2}
       propertyPath: gravityPullDistance
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
@@ -12064,6 +12134,11 @@ Prefab:
     - target: {fileID: 1947655142125346, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
       propertyPath: m_Name
       value: BlackHole (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
@@ -13421,6 +13496,11 @@ Prefab:
       propertyPath: m_Name
       value: BlackHole (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -13702,6 +13782,11 @@ Prefab:
         type: 2}
       propertyPath: m_Range
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114230561278297794, guid: 600384aa196d64bb896df2773c43bce5,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 600384aa196d64bb896df2773c43bce5, type: 2}
@@ -15265,6 +15350,11 @@ Prefab:
         type: 2}
       propertyPath: gravityPullDistance
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
@@ -19143,6 +19233,11 @@ Prefab:
       propertyPath: gravityPullDistance
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -19694,6 +19789,11 @@ Prefab:
       propertyPath: m_Name
       value: BlackHole (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -20173,6 +20273,11 @@ Prefab:
     - target: {fileID: 1947655142125346, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
       propertyPath: m_Name
       value: BlackHole (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
@@ -21629,6 +21734,11 @@ Prefab:
     - target: {fileID: 1947655142125346, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
       propertyPath: m_Name
       value: BlackHole (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
@@ -25973,6 +26083,11 @@ Prefab:
       propertyPath: gravityPullDistance
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -30028,6 +30143,11 @@ Prefab:
       propertyPath: solarEnergy
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 114230561278297794, guid: 600384aa196d64bb896df2773c43bce5,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 600384aa196d64bb896df2773c43bce5, type: 2}
   m_IsPrefabParent: 0
@@ -31882,6 +32002,11 @@ Prefab:
       propertyPath: m_Name
       value: BlackHole (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -32162,6 +32287,11 @@ Prefab:
       propertyPath: m_Name
       value: BlackHole (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -32279,6 +32409,11 @@ Prefab:
     - target: {fileID: 1947655142125346, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
       propertyPath: m_Name
       value: BlackHole (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
@@ -32497,6 +32632,11 @@ Prefab:
     - target: {fileID: 1947655142125346, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
       propertyPath: m_Name
       value: BlackHole (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
@@ -34407,6 +34547,11 @@ Prefab:
       propertyPath: gravityPullDistance
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -35759,6 +35904,11 @@ Prefab:
       propertyPath: m_Range
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114230561278297794, guid: 600384aa196d64bb896df2773c43bce5,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 600384aa196d64bb896df2773c43bce5, type: 2}
   m_IsPrefabParent: 0
@@ -35817,6 +35967,11 @@ Prefab:
         type: 2}
       propertyPath: gravityPullDistance
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
@@ -38183,6 +38338,11 @@ Prefab:
       propertyPath: gravityPullDistance
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -39769,6 +39929,11 @@ Prefab:
       propertyPath: m_Name
       value: BlackHole (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -40265,6 +40430,11 @@ Prefab:
     - target: {fileID: 1947655142125346, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
       propertyPath: m_Name
       value: BlackHole (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
@@ -41033,6 +41203,11 @@ Prefab:
     - target: {fileID: 1947655142125346, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
       propertyPath: m_Name
       value: BlackHole (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
@@ -42124,6 +42299,11 @@ Prefab:
       propertyPath: gravityPullDistance
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -43169,6 +43349,11 @@ Prefab:
     - target: {fileID: 1947655142125346, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
       propertyPath: m_Name
       value: BlackHole (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
@@ -45648,6 +45833,11 @@ Prefab:
       propertyPath: gravityStrength
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -46726,6 +46916,11 @@ Prefab:
       propertyPath: m_Name
       value: BlackHole (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
   m_IsPrefabParent: 0
@@ -47287,6 +47482,11 @@ Prefab:
         type: 2}
       propertyPath: gravityPullDistance
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114747815986357030, guid: 76e6bbcc07774453a8bce2fc5c1a2caf,
+        type: 2}
+      propertyPath: collisionDamage
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76e6bbcc07774453a8bce2fc5c1a2caf, type: 2}
