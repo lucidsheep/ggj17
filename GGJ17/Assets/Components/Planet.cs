@@ -23,8 +23,11 @@ public class Planet : MonoBehaviour
 
 	void OnCollisionEnter2D(Collision2D collision)
 	{
+		var isSunOrBlackHole = collisionDamage > 1;
+		var isSun = isSunOrBlackHole && GetComponent<Sun>() != null;
+		var damageType = isSun ? Hull.DamageType.SUN : (isSunOrBlackHole ? Hull.DamageType.BLACKHOLE : Hull.DamageType.OTHER);
 		if(collision.gameObject.GetComponent<Hull>() != null){
-			collision.gameObject.GetComponent<Hull>().TakeDamage(collisionDamage);
+			collision.gameObject.GetComponent<Hull>().TakeDamage(collisionDamage, damageType);
 			AudioController.PlaySFX(AudioController.instance.explosion);
 		}
 	}

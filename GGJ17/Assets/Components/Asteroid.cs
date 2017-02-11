@@ -32,7 +32,7 @@ public class Asteroid : MonoBehaviour
 	void OnCollisionEnter2D(Collision2D collision)
 	{
 		if(collision.gameObject.GetComponent<Hull>() != null){
-			collision.gameObject.GetComponent<Hull>().TakeDamage(collisionDamage);
+			collision.gameObject.GetComponent<Hull>().TakeDamage(collisionDamage, Hull.DamageType.OTHER);
 			AudioController.PlaySFX(AudioController.instance.explosion);
 		}
 		else if(collision.gameObject.GetComponent<Bullet>() != null)

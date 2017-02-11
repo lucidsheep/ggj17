@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class Hull : MonoBehaviour
 {
+	public enum DamageType { BLACKHOLE, SUN, OTHER };
 	public int maxHP;
 	public float invincibilityTime = 5f;
 
@@ -23,7 +24,7 @@ public class Hull : MonoBehaviour
 		if(invincibleTimeLeft > 0f)
 			invincibleTimeLeft -= Time.deltaTime;
 	}
-	public void TakeDamage(int damage)
+	public void TakeDamage(int damage, DamageType type)
 	{
 		if(invincibleTimeLeft > 0f)
 			return;
@@ -37,9 +38,9 @@ public class Hull : MonoBehaviour
 				Dialog.SetTxt("Hull integrity critical!\nI need to find a repair module...");
 		}
 		if(currentHP <= 0){
-			if(damage > 200)
+			if(type == DamageType.BLACKHOLE)
 				GameOverHandler.SetGameOver(GameOverHandler.GameOverType.blackhole);
-			else if(damage > 10)
+			else if(type == DamageType.SUN)
 				GameOverHandler.SetGameOver(GameOverHandler.GameOverType.sun);
 			else
 				GameOverHandler.SetGameOver(GameOverHandler.GameOverType.crash);
