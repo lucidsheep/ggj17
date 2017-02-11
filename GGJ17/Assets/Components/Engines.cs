@@ -36,6 +36,7 @@ public class Engines : MonoBehaviour
 		maxSpeed += levelUpMaxSpeed;
 		acceleration += levelUpAcceleration;
 		turning += levelUpTurning;
+        Dialog.SetTxt("Engines upgraded!\nShip speed and acceleration improved.");
 	}
 
 	public void TurnShip(bool turnRight)
