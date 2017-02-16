@@ -28,7 +28,7 @@ public class TitleScren : MonoBehaviour
 	 	creditsSelected = !creditsSelected;
 	 	selector.transform.DOMoveY(creditsSelected ? creditsPos : startPos, .25f).SetEase(Ease.OutBack);
 	 }
-	 if(Input.GetKeyDown(KeyCode.Space))
+	 if(Input.anyKeyDown)
 	 {
 	 	if(creditsActive)
 	 		ToggleCreditsActive();
